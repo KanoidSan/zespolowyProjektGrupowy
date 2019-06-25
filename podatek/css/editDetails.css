@@ -1,0 +1,148 @@
+input{
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+    flex-grow: inherit;
+}
+
+select{
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+    flex-grow: inherit;
+}
+
+.user-detail-photo{
+    flex: 8;
+}
+
+.user-detail-data input{
+    flex: 1;
+}
+
+.user-detail-space-between{
+    flex: 1;
+}
+
+.user-detail-data-outer{
+    display: flex;
+    flex: 10;
+    flex-direction: row;
+}
+
+.user-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-element{
+    display: flex;
+    background-color: #5786FF;
+    color: #2B51B3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0px 10px 0px;
+    cursor: pointer;
+    max-width: 10vw;
+    margin: auto;
+}
+
+.taxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.tax{
+    flex: 2;
+    width: 82vw;
+    max-height: 30%;
+    display: flex;
+    background-color: #5786FF;
+    margin: 0 1vw 2vh 1vw;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.tax-header{
+    flex: 1;
+    width: 80vw;
+    max-height: 10vh;
+    display: flex;
+    background-color: #5786FF;
+    margin: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.tax-element{
+    flex: 1;
+    text-align: center;
+    align-content: center;
+}
+
+.edit{
+    flex: 1;
+    height: 32px;
+    width: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    background-color: lightblue;
+    background-image: url("../graphics/edit.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 3px;
+}
+
+.delete{
+    flex: 1;
+    height: 32px;
+    width: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    background-color: rgb(255, 85, 85);
+    background-image: url("../graphics/delete.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 3px;
+}
+
+.export{
+    flex: 1;
+    height: 32px;
+    width: 32px;
+    max-height: 32px;
+    max-width: 32px;
+    background-color: rgb(43, 202, 43);
+    background-image: url("../graphics/export.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4px;
+    margin: 6px;
+    border-radius: 3px;
+}
+
+.tax-element-action{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+}

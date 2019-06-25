@@ -1,0 +1,16 @@
+Przygotowanie strony:
+1)Wchodzimy w nasze œrodowisko deweloperskie do przestrzeni htdocs (na przyk³adzie xampp'a)
+2)Kopiujemy ca³¹ zawartoœæ projektow¹ do folderu htdocs
+
+Przygotowanie bazy danych:
+
+a)Import bazy danych:
+	1)Tworzymy nowa baze danych w phpmyadmin
+	2)Wchodzimy w baze, w zakladke import
+	3)Wybieramy plik "podatki.sql"
+	4)Dane zakodowane s¹ w formacie utf16_polish_ci
+	5)Aprobujemy poprzez przycisk "Wykonaj"
+
+b)Dostêp danych do strony:
+	1)Otwieramy plik "database_access.php"
+	2)Zmieniamy dane dostêpowe odpowiednio wzglêdem naszych ustawieñ na lokalnym œrodowisku

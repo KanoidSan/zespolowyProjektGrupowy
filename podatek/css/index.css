@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #2B51B3;
+    background-image: linear-gradient(to bottom right, #6356E6, #E84AD0);
+    flex-direction: column;
+}
+
+.main-container{
+    flex: 3;
+    margin: auto;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    flex: 1;
+}
+
+.choices{
+    flex: 1;
+    display: inline-flex;
+    width: 100%;
+}
+
+.login{
+    background-color: #5786FF;
+    border-radius: 15px;
+}
+
+.login-form{
+    display: flex;
+    box-shadow: 6px 6px 5px #4860E6;
+}
+
+.choice{
+    border-radius: 10px 10px 0px 0px;
+    flex: 13;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 24px;
+    top: 0;
+    bottom: 0;
+}
+
+.container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+.container label{
+    color: #2B51B3;
+    font-size: 24px;
+    line-height: 2;
+    flex: 1;
+    flex-grow: inherit;
+}
+
+input{
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+    flex-grow: inherit;
+}
+
+form{
+    flex: 1;
+    display: flex;
+}
+
+/*krzychu*/
+
+.register{
+    background-color: #7099FF;
+}
+
+.register-form{
+    background-color: #5786FF;
+    border-radius: 15px;
+    display: none;
+    box-shadow: 6px 6px 5px #4860E6;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=number], input[type=email] {
+    width: 100%;
+    padding: 8px 15px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+  
+/* Set a style for all buttons */
+button {
+    background-color: #2B4380;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+  
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+  
+/* Add padding to containers */
+.container {
+    padding: 0 16px;
+    position: relative;
+    width: 100%;
+  }
+
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 22px;
+    margin: 0 0 8px;
+}

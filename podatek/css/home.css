@@ -1,0 +1,79 @@
+@font-face{
+    font-family:"EmojiSymbols";
+    src:url(https://graphemica.com/assets/emoji/EmojiSymbols-Regular-37883244862ada81e50a5c43f090ab5b696a4d27c5e66d321546a1638bb1e682.woff) format("woff");
+    text-decoration:none;
+    font-style:normal;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: #2B51B3;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #6356E6, #E84AD0);
+    /* background-color: #6356E6; */
+}
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 4vh 4vw 4vh;
+    background-color: rgb(112, 153, 255);
+    height: 5vh;
+    width: 92vw;
+    padding: 10px;
+    color: #A82AA0;
+    border-radius: 15px;
+}
+
+.header-element{
+    display: flex;
+    background-color: #5786FF;
+    color: #2B51B3;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 0px 10px 0px;
+    cursor: pointer;
+}
+
+.header-element-space{
+    flex: 1;
+}
+
+.user-detail-container{
+    display: flex;
+    width: 86vw;
+    height: 74vh;
+    background-color: rgb(112, 153, 255);
+    margin: 1vh 7vw 8vh;
+    border-radius: 40px;
+}
+
+.user-detail-photo{
+    display: flex;
+    flex: 2;
+}
+
+.user-detail-photo img{
+    width: 30vw;
+    height: 30vw;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.user-detail-data{
+    margin: 6vh 2vw 8vh;
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+    font-size: 24px;
+}
+
+.user-detail-data p{
+    flex: 1;
+}
